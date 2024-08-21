@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='s3.css') }}">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login</h1>
+        <form method="POST" action="/login" class="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter username" class="input-field" required>
+            
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter password" class="input-field" required>
+            
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" class="input-field" placeholder="Enter city name" required>
+            
+            <input type="submit" value="Login" class="login-button">
+        </form>
+    <div class ="hidee">
+
+        <h5>Username:fireman</h5>
+        <h6>Password:12345678</h6>
+    </div>
+    </div>
+</body>
+</html>
