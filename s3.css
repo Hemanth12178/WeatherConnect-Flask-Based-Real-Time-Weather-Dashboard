@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e0f2f1;
+  }
+  
+  h1 {
+      text-align: center;
+      color: #00838f; 
+      margin-top: 50px;
+  }
+  
+  .login-form {
+      width: 350px;
+      margin: 0 auto;
+      background-color: #fff; 
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+      margin-bottom: 20px;
+  }
+  
+  .input-field {
+      width: 90%; /* Adjusted to take full width of the form */
+      padding: 9px;
+      margin: 10px 0;
+      border: 1px solid #b2dfdb; 
+      border-radius: 5px;
+      transition: border-color 0.3s ease;
+  }
+  
+  .input-field:focus {
+      outline: none;
+      border-color: #80cbc4; 
+  }
+  
+  .login-button {
+      width: 100%; /* Adjusted to take full width of the form */
+      padding: 10px;
+      background-color: #00838f; 
+      color: #fff; 
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 10px; /* Added margin for spacing */
+  }
+  
+  .login-button:hover {
+      background-color: #005662; 
+  }
+  
+  .label-hover {
+      position: relative;
+      display: inline-block;
+  }
+  
+  .label-hover::after {
+      content: attr(data-content);
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #00838f; /* Dark aqua blue for the hover box */
+      color: #fff; /* White text color for the hover box */
+      padding: 10px;
+      border-radius: 5px;
+      font-size: 12px;
+      white-space: nowrap;
+      width: 100%;
+  }
+  .hidee{
+    text-align: center;
+  }
+  
